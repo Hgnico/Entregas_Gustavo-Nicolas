@@ -1,3 +1,4 @@
+//Calcular el costo de los productos a cobra enuna venta//
 function cobroProductos() {
   const cantidadProductos = parseInt(prompt("Ingrese la cantidad de productos que lleva el cliente:"));
   if (isNaN(cantidadProductos) || cantidadProductos < 1){
